@@ -1,0 +1,7 @@
+import pickle
+
+with open('spam_model.pkl', 'wb') as f:
+    pickle.dump(model, f)
+
+with open('vectorizer.pkl', 'wb') as f:
+    pickle.dump(tfidf, f)
